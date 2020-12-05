@@ -745,9 +745,9 @@ h1 {
   padding-bottom: 94px;
 }
 .partner h2 {
-  align-items: center;
   font-size: 36px;
   line-height: 1.17;
+  margin-left: 390px;
   letter-spacing: 0.03em;
   margin-top: 0;
   margin-bottom: 50px;
@@ -878,14 +878,10 @@ display: inline-flex;
   cursor: pointer;
 }
 
-
-
-
 .soclist-footer {
   width: 206px;
   height: 80px;
   margin-left: 70px;
   padding-top: 0;
   margin-top: 70px;
-
 }
