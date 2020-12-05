@@ -608,11 +608,11 @@ h1 {
 }
 
 
-.seti a:hover,
+/* .seti a:hover,
 .seti a:focus {
  background-color: #2196F3;
  cursor: pointer;
-} 
+}  */
 
 
 /* !!!!!!!!!!!!!!!!!!!!!!соцсети!!!!!!!!!!!!!!!!!!!! */
@@ -852,7 +852,7 @@ display: inline-flex;
   margin-right: auto;
 }
 
-.icons {
+.icons-foot {
   display: inline-flex;
   width: 20px;
   height: 20px;
@@ -860,11 +860,11 @@ display: inline-flex;
   align-items: center;
 }
 
-.icons:hover  {
+.icons-foot:hover  {
   fill: var(--text-color-white);;
 }
 
-.twit {
+.twit-foot {
  display: inline-flex; 
  align-items: center; 
  justify-content: center;
@@ -873,17 +873,13 @@ display: inline-flex;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
 }
-.twit:hover {
+.twit-foot:hover {
   background-color: #2196F3;
   cursor: pointer;
 }
 
 
-.seti a:hover,
-.seti a:focus {
- background-color: #2196F3;
- cursor: pointer;
-} 
+
 
 .soclist-footer {
   width: 206px;
