@@ -598,38 +598,32 @@ h1 {
   display: inline-flex;
   width: 20px;
   height: 20px;
-  fill: #AFB1B8;
+  fill: currentColor;
+  /* fill: #AFB1B8; */
   align-items: center;
 }
 
-.icons:hover  {
-  fill: var(--text-color-white);;
-}
+/* .icons:hover  {
+  fill: var(--text-color-white);
+} */
 
-.twit {
- display: inline-flex; 
+.soc-icon {
+ display: flex; 
  align-items: center; 
- justify-content: center;
+ justify-content: center; 
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  background-color: yellow;
 }
-.twit:hover {
+.twit:hover,
+.twit:focus {
   background-color: #2196F3;
   cursor: pointer;
 }
 
 
-/* .seti a:hover,
-.seti a:focus {
- background-color: #2196F3;
- cursor: pointer;
-}  */
-
-
 /* !!!!!!!!!!!!!!!!!!!!!!соцсети!!!!!!!!!!!!!!!!!!!! */
-
-
 
 .team h2 {
   margin-top: 0;
@@ -765,39 +759,11 @@ h1 {
   margin-bottom: 50px;
   padding-bottom: 0;
   padding-top: 94px;
-  
-}
-.icons-one {
-  width: 44.27px;
-  height: 49.23px;
-  fill: var(--color-svg);
-}
-.icons-two {
-  width: 40px;
-  height: 52px;
-  fill: var(--color-svg);
-}
-.icons-three {
-  width: 41px;
-  height: 42.6px;
-  fill: var(--color-svg);
-}
-.icons-four {
-  width: 79.66px;
-  height: 42.02px;
-  fill: var(--color-svg);
-}
-.icons-five {
-  width: 59px;
-  height: 47px;
-  fill: var(--color-svg);
-}
-.icons-six {
-  width: 88.48px;
-  height: 45.44px;
-  fill: var(--color-svg);
 }
 
+.partner-one {
+  fill: #AFB1B8;
+}
 
 .partner-one {
   display: inline-flex;
@@ -811,26 +777,9 @@ h1 {
 
 .partner-one:hover {
  border-color: #2196F3;
+ fill:  #2196F3;
 }
 
-.icons-one:hover {
-  fill: #2196F3;
-}
-.icons-two:hover {
-  fill: #2196F3;
-}
-.icons-three:hover {
-  fill: #2196F3;
-}
-.icons-four:hover {
-  fill: #2196F3;
-}
-.icons-five:hover {
-  fill: #2196F3;
-}
-.icons-six:hover {
-  fill: #2196F3;
-}
 
 /* !!!!!!!!!!!!!!!!!!!!!!соцсети footer!!!!!!!!!!!!!!!!!!!! */
 
