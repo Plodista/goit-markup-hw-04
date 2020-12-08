@@ -616,8 +616,8 @@ h1 {
   border-radius: 50%;
   background-color: yellow;
 }
-.twit:hover,
-.twit:focus {
+.soc-icon:hover,
+.soc-icon:focus {
   background-color: #2196F3;
   cursor: pointer;
 }
