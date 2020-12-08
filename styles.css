@@ -614,11 +614,12 @@ h1 {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: yellow;
+  background-color: var(--text-color-white);
 }
 .soc-icon:hover,
 .soc-icon:focus {
-  background-color: #2196F3;
+background-color: #2196F3 ;
+  color: var(--text-color-white);
   cursor: pointer;
 }
 
